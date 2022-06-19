@@ -19,7 +19,7 @@ You will need to have Node.Express installed. Please install it by running the f
 
 
 ## Screenshot of application
-(https://github.com/VN135766/11--Note--Taker/blob/main/Screenshot%20(51).png)
+![Alt text](https://github.com/VN135766/11--Note--Taker/blob/main/Screenshot%20(51).png)
 
 ## License
 This application is licensed under MIT
