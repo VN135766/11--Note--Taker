@@ -14,11 +14,9 @@ app.use('/api', api);
 app.use(express.static('public'));
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/index.html'))
-    console.info(`You are being directed to index.html`)
 });
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html'))
-    console.info(`You are being redirected to notes.html`)
 })
 app.listen(PORT, () =>
     console.log(`App listening at http://localhost:${PORT}`)

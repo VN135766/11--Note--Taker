@@ -1,6 +1,5 @@
 const fs = require('fs')
 const util = require('util');
-
 const readFromFile = util.promisify(fs.readFile)
 
 const readAndWriteFile = (content, file) => {
@@ -11,12 +10,10 @@ const readAndWriteFile = (content, file) => {
             const parsedData = JSON.parse(data)
             parsedData.push(content);
             writeToFile(file, parsedData)
-            console.log("content")
         }
     })
 }
-
 function writeToFile(fileName, content) {
-    fs.writeFile(fileName, JSON.stringify(content, null, 2), (err) => err ? console.error(err) : console.info(`\nData written to ${fileName}`))
+    fs.writeFile(fileName, JSON.stringify(content, null, 2), (err) => err ? console.error(err) : console.info())
 }
     module.exports = { readAndWriteFile, readFromFile }
