@@ -13,7 +13,7 @@ You will need to have Node.Express installed. Please install it by running the f
 
 ## Links to application
 
-[Link to deployed application](https://calm-fortress-30956.herokuapp.com/notes)
+[Link to deployed application](https://note-taker-app.onrender.com/)
 
 [Link to Github Repo](https://github.com/VN135766/11--Note--Taker)
 
